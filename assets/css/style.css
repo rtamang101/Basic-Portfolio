@@ -1,0 +1,258 @@
+*{
+	margin: 0;
+}
+
+body{
+	background-image: url("../images/cork.png");
+	max-width: 100%;
+	margin: 0 auto;
+	line-height: 1.125;
+	height:100%;
+}
+
+header {
+	max-width: 100%;
+	background-color: #ffffff;
+	border-color: #cccccc;
+	border-width: 2px;
+	font-family: 'georgia', 'times', 'times new roman', 'serif';
+	padding: 5px;
+	border-bottom-style: solid;
+	overflow: auto
+
+}
+
+.name {
+	background-color: #4aaaa5;
+	color: white;
+	padding: 26px;
+	font-size: 28px;
+	text-align: center;
+	font-weight: bold;
+	width: 222px;
+	float: left;
+	position: relative;
+	left: 20%;
+	top: 5px;
+}
+
+.navigation {
+	float: right;
+	position: relative;
+	top: 35px;
+	right: 20%;
+	color: lightgrey;
+}
+
+.link {
+	text-decoration: none;
+}
+
+.main{
+	max-width: 60%;
+	margin: 0 auto;
+
+}
+
+.about{
+	margin: 25px 0px;
+	padding: 15px;
+	width: 650px;
+	box-sizing: border-box;
+	background-color: #ffffff;
+	border-style: solid;
+	border-color: #dddddd;
+	border-width: .2px;
+	float: left;
+	
+}
+
+h1{
+	color:#4aaaa5;
+	font-size: 30px;
+	font-weight: bold;
+	padding: 10px;
+}
+
+.image{
+	float: left;
+	padding: 5px;
+}
+
+p{
+	text-align: justify;
+	padding: 5px;
+}
+
+.connect {
+	float: right;
+	margin: 25px 0px;
+	padding: 10px;
+	text-align: center;
+	width: 270px;
+	box-sizing: border-box;
+	border-style: solid;
+	border-color: #dddddd;
+	border-width: .2px;
+	background-color: #ffffff;
+}
+
+a:link{
+	color:lightgrey;
+}
+
+a:visited{
+	color:lightgrey;
+}
+
+a:hover{
+	zoom:1.25;
+}
+
+a:active{
+	color:black;
+}
+
+.wrapper{
+	min-height: 100%;
+	height: auto !important;
+	height:100%;
+	margin:0 auto -25px;
+}
+
+.push{
+	height: 25px;
+	clear:both;
+}
+
+footer {
+	padding: 30px;
+	border-top-style: solid;
+	border-top-width: 4px;
+	border-color: teal;
+	background-color: grey;
+	width:100%;
+	text-align: center;
+	height: 25px;
+	color:white;
+	clear: both;
+}
+
+.main_border{
+	margin: 5px 5px 10px 5px;
+	border-width: 2px;
+	border-color: #dddddd;
+	border-style: solid;
+}
+
+.connect_border{
+	margin: 5px 5px 10px 5px;
+	border-color: #dddddd;
+	border-style: solid;
+}
+
+h2 {
+	color: #4aaaa5;
+	font-size: 24px;
+	font-weight: bold;
+	padding: 10px;
+}
+
+.social_media {
+	padding-bottom: 20px;
+	padding-top: 10px;
+}
+
+form{
+	font-size: 24px;
+	font-weight: normal;
+	font-family: sans-serif;
+	color: grey;
+	
+}
+
+input{
+	width: 100%;
+	padding:10px 10px;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	box-sizing: border-box;
+	font-size: 16px;
+	border-color: lightgrey;
+	border-style: solid;
+	border-width: 2px;
+
+}
+textarea{
+	width: 100%;
+	height: 150px;
+	padding:10px 10px;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	box-sizing: border-box;
+	font-size: 16px;
+	border-color: lightgrey;
+	border-style: solid;
+	border-width: 2px;
+
+}
+
+::-webkit-input-placeholder{
+color: orange;
+font-style:italic;
+}
+
+button {
+	background-color: teal;
+	border:none;
+	padding:16px 32px;
+	color: white;
+	width: 25%;
+
+}
+
+.port1{
+	position: relative;
+	float: left;
+	margin-left: 5px;
+}
+
+.port2{
+	position: relative;
+	float: left;
+	margin-left: 10px;
+}
+
+.port3{
+	position: relative;
+	float: left;
+	margin-left: 5px;
+	margin-top: 10px;
+}
+
+.port4{
+	position: relative;
+	float: left;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+.port5{
+	position: relative;
+	float: left;
+	margin-left: 5px;
+	margin-top: 10px;
+}
+
+h3{
+	position: absolute;
+	top:130px;
+	left: 0;
+	width: 300px;
+	background-color:teal;
+	color: white;
+	text-align: center;
+	padding: 20px;
+	box-sizing: border-box;
+	font-size: 22px;
+}
